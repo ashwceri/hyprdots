@@ -1,0 +1,83 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.font.name": "Fira Sans",
+  "theme.font.label": "Fira Sans",
+  "theme.font.size": "1.15rem",
+  "notifications.position": "top",
+  "theme.notification.border_radius": "0.8rem",
+  "notifications.active_monitor": false,
+  "menus.media.hideAuthor": false,
+  "menus.clock.time.military": true,
+  "menus.clock.weather.unit": "metric",
+  "menus.clock.weather.location": "Bristol",
+  "menus.dashboard.powermenu.avatar.image": "/home/ashley/Pictures/profile pictures/gato.png",
+  "menus.dashboard.shortcuts.enabled": false,
+  "theme.notification.enableShadow": true,
+  "menus.clock.time.hideSeconds": true,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "media"
+      ],
+      "middle": [
+        "windowtitle"
+      ],
+      "right": [
+        "hyprsunset",
+        "volume",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "bar.customModules.cava.showActiveOnly": true,
+  "theme.bar.menus.card_radius": "0.8em",
+  "theme.bar.menus.popover.radius": "0.8em",
+  "theme.bar.menus.switch.radius": "0.4em",
+  "theme.bar.menus.switch.slider_radius": "0.4em",
+  "theme.bar.menus.buttons.radius": "0.8em",
+  "theme.bar.menus.progressbar.radius": "0.6rem",
+  "theme.bar.menus.slider.slider_radius": "0.6rem",
+  "theme.bar.menus.slider.progress_radius": "0.6rem",
+  "theme.bar.menus.scroller.radius": "1.4em",
+  "theme.bar.menus.scroller.width": "0.5em",
+  "theme.bar.menus.tooltip.radius": "0.6em",
+  "theme.bar.menus.border.size": "0.13em",
+  "theme.bar.menus.border.radius": "1.4em",
+  "menus.dashboard.stats.enable_gpu": true
+}

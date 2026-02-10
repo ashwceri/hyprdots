@@ -1,0 +1,21 @@
+[Common]
+CornerRadius=8
+ShadowSize=ShadowVeryLarge
+
+[Style]
+TabDrawHighlight=true
+TabUseBrighterCloseIcon=true
+TabUseHighlightColor=true
+WidgetToolBarShadow=true
+
+[Windeco]
+ButtonSize=ButtonTiny
+OtherCornerRadius=8
+
+[Windeco Exception 0]
+BorderSize=0
+Enabled=true
+ExceptionPattern=.*
+ExceptionType=0
+HideTitleBar=true
+Mask=0
