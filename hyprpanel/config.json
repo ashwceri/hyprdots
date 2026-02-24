@@ -15,7 +15,7 @@
   "menus.dashboard.powermenu.avatar.image": "/home/ashley/Pictures/profile pictures/gato.png",
   "menus.dashboard.shortcuts.enabled": false,
   "theme.notification.enableShadow": true,
-  "menus.clock.time.hideSeconds": true,
+  "menus.clock.time.hideSeconds": false,
   "bar.layouts": {
     "0": {
       "left": [
@@ -24,28 +24,27 @@
         "media"
       ],
       "middle": [
-        "windowtitle"
+        "clock"
       ],
       "right": [
+        "windowtitle",
         "hyprsunset",
         "volume",
         "systray",
-        "clock",
         "notifications"
       ]
     },
     "1": {
       "left": [
         "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
         "media"
       ],
+      "middle": [
+        "clock"
+      ],
       "right": [
+        "windowtitle",
         "volume",
-        "clock",
         "notifications"
       ]
     },
@@ -79,5 +78,14 @@
   "theme.bar.menus.tooltip.radius": "0.6em",
   "theme.bar.menus.border.size": "0.13em",
   "theme.bar.menus.border.radius": "1.4em",
-  "menus.dashboard.stats.enable_gpu": true
+  "menus.dashboard.stats.enable_gpu": true,
+  "bar.clock.format": "%b %d  %H:%M",
+  "bar.clock.icon": "󰸗",
+  "theme.bar.buttons.clock.spacing": "0.5em",
+  "bar.media.format": "{artist: - }{title}",
+  "theme.bar.buttons.media.enableBorder": false,
+  "theme.bar.buttons.clock.enableBorder": false,
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "bar.notifications.show_total": true,
+  "bar.notifications.hideCountWhenZero": false
 }
