@@ -118,7 +118,7 @@ end
 # 	neofetch --backend 'w3m' --xoffset 34 --yoffset 34 --gap 0
 # end
 
-
+alias poke='pokemon-colorscripts -r --no-title'
 alias ashbox='~/Scripts/serverlogin.sh'
 set MOZ_ENABLE_WAYLAND 1
 
