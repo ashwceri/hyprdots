@@ -120,6 +120,8 @@ end
 
 alias poke='pokemon-colorscripts -r --no-title'
 alias ashbox='~/Scripts/serverlogin.sh'
+alias offpls='shutdown now'
+
 set MOZ_ENABLE_WAYLAND 1
 
 fish_config theme choose "Rosé Pine"
